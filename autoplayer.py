@@ -10,7 +10,7 @@ class CreateCharacter(object):
 		self.cname = cname	
 		
 def userside(y):
-	if (y == 1):
+	if y == 1:
 		print (dialspace)
 		print ('You need to choose a side. There is a war in Joes World. Politics are sensitive and everyone will ask what side'
 		   	' you are on. I know sucks right? You can choose the 1. Arathi Kingdom or 2. the Warsong Clan.')
